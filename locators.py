@@ -1,0 +1,23 @@
+BUTTON_LOGIN_REGISTRATION_XPATH = "//button[text()='Вход и регистрация']"
+BUTTON_CREATE_ACCOUNT_XPATH = "//button[text()='Создать аккаунт']"
+BUTTON_NO_ACCOUNT_XPATH = "//button[text()='Нет аккаунта']"
+BUTTON_LOGIN_XPATH = "//button[text()='Войти']"
+BUTTON_LOGOUT_XPATH = "//button[text()='Выйти']"
+BUTTON_POST_CARD_XPATH = "//button[text()='Разместить объявление']"
+H1_AUTHORIZATION_REQUIRED_TO_POST_CARD_XPATH = "//h1[text()='Чтобы разместить объявление, авторизуйтесь']"
+
+INPUT_EMAIL_XPATH = "//input[@placeholder='Введите Email']"
+INPUT_ERROR_MESSAGE_XPATH = f"{INPUT_EMAIL_XPATH}/../../..//span[text()='Ошибка']"
+INPUT_PASSWORD_XPATH = "//input[@placeholder='Пароль']"
+INPUT_REPEAT_PASSWORD_XPATH = "//input[@placeholder='Повторите пароль']"
+
+INPUT_CARD_NAME_XPATH = "//input[@placeholder='Название']"
+TEXTAREA_CARD_DESCRIPTION_XPATH = "//textarea[@placeholder='Описание товара']"
+INPUT_CARD_PRICE_XPATH = "//input[@placeholder='Стоимость']"
+BUTTON_PUBLISH_XPATH = "//button[text()='Опубликовать']"
+
+BUTTON_PROFILE_XPATH = "//button[@class='circleSmall']"
+H3_PROFILE_TEXT_NAME_XPATH = "//h3[@class='profileText name']"
+DIV_MY_CARDS_XPATH = "//div[h1[text()='Мои объявления']]"
+DIV_CARD_XPATH = "//div[@class='card']//h2"
+BUTTON_ARROW_RIGHT_XPATH = "//button[contains(@class, 'arrowButton--right')]"
